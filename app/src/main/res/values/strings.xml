@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="App_Heading">Conway\'s Game of Life</string>
+    <string name="title_activity_preloaded__library">Preloaded_Library</string>
+    <string name="title_activity_editor">Editor</string>
+    <string name="title_activity_main_game">MainGame</string>
+    <string name="title_activity_board_details">BoardDetails</string>
+</resources>

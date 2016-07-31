@@ -21,6 +21,7 @@ package com.example.pushkarmishra.conwaysgameoflife;
 /**
  * Exception class for Pattern
  * parsing.
+ *
  */
 
 public class PatternFormatException extends Exception {

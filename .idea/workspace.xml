@@ -38,7 +38,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca56aa43-cfa1-41a8-8d7f-c5b4f5966dd9" name="Default" comment="" />
+    <list default="true" id="ca56aa43-cfa1-41a8-8d7f-c5b4f5966dd9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.java" />
+    </list>
     <ignored path="Conway's Game of Life.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +105,8 @@
       <file leaf-file-name="PatternFormatException.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30037546">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.41301626">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding>
                 <element signature="e#0#890#0" expanded="true" />
               </folding>
@@ -121,6 +125,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2221,6 +2226,19 @@
       <option name="number" value="Default" />
       <updated>1459611564810</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed more typo">
+      <created>1470009351449</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1470009351449</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final typo fix">
+      <created>1470009551761</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470009551761</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2269,6 +2287,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed more typo" />
+    <MESSAGE value="final typo fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="final typo fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2725,8 +2748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30037546">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.41301626">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="e#0#890#0" expanded="true" />
           </folding>

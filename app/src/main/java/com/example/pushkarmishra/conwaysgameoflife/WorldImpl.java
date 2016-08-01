@@ -21,7 +21,7 @@ package com.example.pushkarmishra.conwaysgameoflife;
 /**
  * This class contains the main methods
  * corresponding to the logic behind
- * the Conway's Game of Life simulation.
+ * the Conway's Game of Life's simulation.
  */
 
 public abstract class WorldImpl implements World {

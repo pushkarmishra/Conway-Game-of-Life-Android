@@ -22,7 +22,9 @@ import java.util.HashMap;
 
 /**
  * This is a simple API for a
- * Trie Data structure for Strings.
+ * Trie Data structure for
+ * Strings (which may contain letters,
+ * numbers, other characters).
  */
 
 public class Trie {

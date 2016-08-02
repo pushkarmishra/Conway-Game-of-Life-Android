@@ -49,14 +49,6 @@ public abstract class WorldImpl implements World {
         return this.height;
     }
 
-//    public int getGeneration() {
-//        return this.generation;
-//    }
-//
-//    public int getPopulation() {
-//        return 0;
-//    }
-
     protected String getCellAsString(int col, int row) {
         return getCell(col, row) ? "#" : "_";
     }
@@ -79,6 +71,14 @@ public abstract class WorldImpl implements World {
         }
 
         return count;
+    }
+
+    public int getPopulation() {
+        return countLiveCells();
+    }
+
+    public int getGeneration() {
+        return this.generation;
     }
 
     public String stringWorld() {

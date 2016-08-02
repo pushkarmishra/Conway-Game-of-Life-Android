@@ -28,28 +28,77 @@ import java.util.HashMap;
  */
 
 public class Trie {
-    ;
+    TrieNode root = null;
+
+    public Trie() {
+        root = new TrieNode();
+    }
+
+    public boolean insertString(String str) {
+        TrieNode curNode = root;
+
+        for (int i = 0; i < str.length(); i += 1) {
+            TrieNode newNode = curNode.getLetter(str.charAt(i));
+            if(newNode == null) {
+                boolean ok = curNode.insertLink(str.charAt(i));
+                if(!ok) {
+                    System.out.format("Trie::insertString: Insert of character %c failed\n", str.charAt(i));
+                    return false;
+                }
+
+                newNode = curNode.getLetter(str.charAt(i));
+                assert(newNode != null);
+            }
+
+            curNode = newNode;
+        }
+
+        return true;
+    }
+
+    public boolean isPresent(String str) {
+        TrieNode curNode = root;
+
+        for (int i = 0; i < str.length(); i += 1) {
+            TrieNode newNode = curNode.getLetter(str.charAt(i));
+            if (newNode == null) {
+                return false;
+            }
+
+            curNode = newNode;
+        }
+
+        return true;
+    }
 }
 
 class TrieNode {
-    private char letter;
     private HashMap <Character, TrieNode> NextLinks;
 
-    public TrieNode(char mLetter) {
+    public TrieNode() {
         NextLinks = new HashMap<>();
-        letter = mLetter;
     }
 
-    public boolean insertLink(char key) {
+    public boolean insertLink(Character key) {
         TrieNode getEntry = NextLinks.get(key);
 
         if (getEntry != null) {
-            System.out.println("TrieNode::insertLink: Entry with key already exists\n");
+            System.out.format("TrieNode::insertLink: Entry with key %c already exists\n", key);
             return false;
         }
 
-        TrieNode newEntry = new TrieNode(key);
+        TrieNode newEntry = new TrieNode();
         NextLinks.put(key, newEntry);
         return true;
+    }
+
+    public TrieNode getLetter(Character key) {
+        TrieNode getEntry = NextLinks.get(key);
+
+        if (getEntry != null) {
+            return getEntry;
+        }
+
+        return null;
     }
 }

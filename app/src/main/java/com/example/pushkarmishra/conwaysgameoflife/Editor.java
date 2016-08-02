@@ -114,7 +114,7 @@ public class Editor extends AppCompatActivity {
         author = intent.getStringExtra("Author");
 
         input = name + ":" + author + ":" + String.valueOf(width)
-                    + ":" + String.valueOf(height) + ":0:0:";
+                     + ":" + String.valueOf(height) + ":0:0:";
         world = new ArrayWorld(width, height);
     }
 

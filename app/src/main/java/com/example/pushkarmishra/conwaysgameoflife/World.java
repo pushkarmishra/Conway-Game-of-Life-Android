@@ -28,8 +28,9 @@ public interface World {
     boolean getCell(int col, int row);
     int getWidth();
     int getHeight();
+    String stringWorld();
 
 //        int getGeneration();
-//        int getPopulation();
+    int getPopulation();
     World nextGeneration(int log2StepSize);
 }

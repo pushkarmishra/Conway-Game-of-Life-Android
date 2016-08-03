@@ -44,33 +44,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca56aa43-cfa1-41a8-8d7f-c5b4f5966dd9" name="Default" comment="final typo fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Statistics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_statistics.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_statistics.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$3$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/MainGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/World.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/World.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/Trie.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/pushkarmishra/conwaysgameoflife/Trie.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
@@ -78,30 +57,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_cc1b9cd48460abd94dfe7552492fa084298fde04.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_cc1b9cd48460abd94dfe7552492fa084298fde04.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Editor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/PatternFormatException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pushkarmishra/conwaysgameoflife/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/pushkarmishra/conwaysgameoflife/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Trie.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Trie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/World.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/World.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_main_game.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_main_game.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main_game.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main_game.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -138,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
               <folding>
                 <element signature="e#0#4068#0" expanded="true" />
               </folding>
@@ -150,24 +118,31 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding>
-                <element signature="e#0#2731#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#2117#2118#0" expanded="true" />
-                <element signature="e#2160#2161#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
+                <element signature="e#2168#2169#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Treap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Treap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15424165">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#3924#0" expanded="true" />
+                <element signature="e#1110#1140#0" expanded="true" />
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2334#2335#0" expanded="true" />
+                <element signature="e#2341#2371#0" expanded="true" />
+                <element signature="e#2814#2815#0" expanded="true" />
+                <element signature="e#2866#2867#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,14 +151,14 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="200" column="1" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
+              <caret line="162" column="58" selection-start-line="162" selection-start-column="58" selection-end-line="162" selection-end-column="58" />
               <folding>
-                <element signature="e#0#6544#0" expanded="true" />
+                <element signature="e#0#6747#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#4285#5535#0" expanded="true" />
-                <element signature="e#4383#5509#0" expanded="true" />
-                <element signature="e#5508#5509#0" expanded="true" />
-                <element signature="e#5534#5535#0" expanded="true" />
+                <element signature="e#4323#5704#0" expanded="true" />
+                <element signature="e#4421#5678#0" expanded="true" />
+                <element signature="e#5677#5678#0" expanded="true" />
+                <element signature="e#5703#5704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,11 +174,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Statistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.55912596">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="e#0#2249#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -1803,14 +1778,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Editor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Preloaded_Library.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/stats.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Trie.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main_game.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_statistics.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_statistics.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Statistics.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Trie.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java" />
       </list>
     </option>
   </component>
@@ -2793,39 +2768,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#4068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="200" column="1" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#6544#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#4285#5535#0" expanded="true" />
-            <element signature="e#4383#5509#0" expanded="true" />
-            <element signature="e#5508#5509#0" expanded="true" />
-            <element signature="e#5534#5535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_statistics.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2837,13 +2779,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Statistics.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="3" />
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/WorldImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
           <folding>
-            <element signature="e#0#2249#0" expanded="true" />
+            <element signature="e#0#4068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/MainGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="58" selection-start-line="162" selection-start-column="58" selection-end-line="162" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#6747#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#4323#5704#0" expanded="true" />
+            <element signature="e#4421#5678#0" expanded="true" />
+            <element signature="e#5677#5678#0" expanded="true" />
+            <element signature="e#5703#5704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3924#0" expanded="true" />
+            <element signature="e#1110#1140#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2341#2371#0" expanded="true" />
+            <element signature="e#2814#2815#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2851,22 +2831,24 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="27" selection-end-column="3" />
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
-            <element signature="e#0#2731#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#2117#2118#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Treap.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/pushkarmishra/conwaysgameoflife/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15424165">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          <folding />
+        <state vertical-scroll-proportion="0.55912596">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#2249#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@ import java.util.HashMap;
  */
 
 public class Trie {
-    TrieNode root = null;
+    private TrieNode root = null;
 
     public Trie() {
         root = new TrieNode();

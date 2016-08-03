@@ -39,6 +39,7 @@ public class MainGame extends AppCompatActivity {
     private Timer timer;
     private int timeStep = 501;
     private Trie gameTrie;
+    private Treap<Integer> gameTreap;
     private int generationCount;
     private int cycleCount;
     private int maxPopulation;
@@ -157,6 +158,9 @@ public class MainGame extends AppCompatActivity {
                         minPopulation = Math.min(minPopulation, world.getPopulation());
                         world = world.nextGeneration(0);
                         generationCount += 1;
+
+                        assert(!gameTreap.isPresent(generationCount));
+                        gameTreap.insert(generationCount);
                     }
                 }
             });
@@ -168,9 +172,9 @@ public class MainGame extends AppCompatActivity {
     public void initialiseWorld(Pattern p) throws PatternFormatException {
         world = new ArrayWorld(p.getWidth(), p.getHeight());
         gameTrie = new Trie();
+        gameTreap = new Treap<>();
         generationCount = 1;
         cycleCount = -1;
-
 
         p.initialise(world);
     }

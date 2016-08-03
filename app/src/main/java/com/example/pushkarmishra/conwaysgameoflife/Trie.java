@@ -35,6 +35,7 @@ public class Trie {
     }
 
     public boolean insertString(String str) {
+        str += '$';
         TrieNode curNode = root;
 
         for (int i = 0; i < str.length(); i += 1) {
@@ -57,6 +58,7 @@ public class Trie {
     }
 
     public boolean isPresent(String str) {
+        str += '$';
         TrieNode curNode = root;
 
         for (int i = 0; i < str.length(); i += 1) {

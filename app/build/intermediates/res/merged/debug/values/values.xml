@@ -279,6 +279,8 @@
     <string name="title_activity_editor">Editor</string>
     <string name="title_activity_main_game">MainGame</string>
     <string name="title_activity_preloaded__library">Preloaded_Library</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_stats">stats</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

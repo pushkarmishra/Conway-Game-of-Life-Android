@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
+import android.view.View;
 import android.widget.*;
 
 import java.util.*;
@@ -40,6 +41,9 @@ public class MainGame extends AppCompatActivity {
     private Trie gameTrie;
     private int generationCount;
     private int cycleCount;
+    private int maxPopulation;
+    private int minPopulation;
+    private boolean ChildRunning = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +67,7 @@ public class MainGame extends AppCompatActivity {
         } catch (Exception e) {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
 
-            alert.setMessage("An error occurred while initialising the world: " + e.getMessage());
+            alert.setMessage("MainGame::onCreate: An error occurred while initialising the world: " + e.getMessage());
             alert.setCancelable(true);
 
             alert.setPositiveButton(
@@ -78,7 +82,8 @@ public class MainGame extends AppCompatActivity {
             return;
         }
 
-        gameTrie.insertString(world.stringWorld());
+        maxPopulation = world.getPopulation();
+        minPopulation = world.getPopulation();
 
         gameView = new GameView(this, world);
         RelativeLayout gameLayout = (RelativeLayout) findViewById(R.id.gameLayout);
@@ -132,11 +137,27 @@ public class MainGame extends AppCompatActivity {
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                getBlackCells(world, blackCells);
-                gameView.reDraw(world, blackCells);
+                    if(!ChildRunning) {
+                        getBlackCells(world, blackCells);
+                        gameView.reDraw(world, blackCells);
 
-                world = world.nextGeneration(0);
-                generationCount += 1;
+                        boolean present = gameTrie.isPresent(world.stringWorld());
+                        if (present && cycleCount == -1) {
+                            cycleCount = generationCount;
+
+                        } else {
+                            boolean ok = gameTrie.insertString(world.stringWorld());
+                            if (!ok) {
+                                System.out.format("MainGame::animation: Insert into trie failed\n");
+                                return;
+                            }
+                        }
+
+                        maxPopulation = Math.max(maxPopulation, world.getPopulation());
+                        minPopulation = Math.min(minPopulation, world.getPopulation());
+                        world = world.nextGeneration(0);
+                        generationCount += 1;
+                    }
                 }
             });
             }
@@ -150,6 +171,31 @@ public class MainGame extends AppCompatActivity {
         generationCount = 1;
         cycleCount = -1;
 
+
         p.initialise(world);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        ChildRunning = false;
+    }
+
+    /**
+     * The "buttonStats" button is clicked.
+     * Defined in {@code content_main_game.xml}
+     */
+
+    public void onStatsButtonClick(View V) {
+        Intent intentStats = new Intent(this, Statistics.class);
+        intentStats.putExtra("Generation", generationCount);
+        intentStats.putExtra("Cycle", cycleCount);
+        intentStats.putExtra("MaxPopulation", maxPopulation);
+        intentStats.putExtra("MinPopulation", minPopulation);
+
+        ChildRunning = true;
+
+        // Pass the intent on to the statistics activity
+        startActivity(intentStats);
     }
 }

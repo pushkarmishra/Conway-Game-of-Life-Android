@@ -19,16 +19,10 @@
 package com.example.pushkarmishra.conwaysgameoflife;
 
 /**
- * Basic interface for the
- * world object.
+ * This is a simple API for a
+ * Treap Data structure (Balanced
+ * Binary Search Tree).
  */
 
-public interface World {
-    void setCell(int col, int row, boolean alive);
-    boolean getCell(int col, int row);
-    int getWidth();
-    int getHeight();
-    String stringWorld();
-    int getPopulation();
-    World nextGeneration(int log2StepSize);
+public class Treap<T> {
 }

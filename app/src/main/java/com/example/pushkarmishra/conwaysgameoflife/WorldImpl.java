@@ -77,10 +77,6 @@ public abstract class WorldImpl implements World {
         return countLiveCells();
     }
 
-    public int getGeneration() {
-        return this.generation;
-    }
-
     public String stringWorld() {
         String ret = "";
         for (int i = 0; i < height; ++i) {

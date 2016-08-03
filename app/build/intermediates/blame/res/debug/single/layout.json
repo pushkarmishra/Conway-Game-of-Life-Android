@@ -20,6 +20,10 @@
         "source": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/res/merged/debug/layout/content_statistics.xml",
+        "source": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/res/layout/content_statistics.xml"
+    },
+    {
         "merged": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/res/merged/debug/layout/activity_editor.xml",
         "source": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/res/layout/activity_editor.xml"
     },
@@ -182,6 +186,10 @@
     {
         "merged": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/res/merged/debug/layout/activity_statistics.xml",
+        "source": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/res/layout/activity_statistics.xml"
     },
     {
         "merged": "/Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",

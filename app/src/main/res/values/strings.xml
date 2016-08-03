@@ -6,4 +6,6 @@
     <string name="title_activity_editor">Editor</string>
     <string name="title_activity_main_game">MainGame</string>
     <string name="title_activity_board_details">BoardDetails</string>
+    <string name="title_activity_stats">stats</string>
+    <string name="title_activity_statistics">Statistics</string>
 </resources>

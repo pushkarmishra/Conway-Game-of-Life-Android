@@ -1,24 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:2:1-55:12
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:2:1-69:12
 	package
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:2:11-64
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:3:5-58
 		INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:3:11-69
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
 		INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:7:5-53:19
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:7:5-67:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.1.1] /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
@@ -51,15 +51,15 @@ ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:20:17-68
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
 		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:22:17-76
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:22:27-74
 activity#com.example.pushkarmishra.conwaysgameoflife.Preloaded_Library
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:25:9-31:20
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:25:9-30:59
 	android:screenOrientation
 		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:29:13-49
 	android:label
@@ -71,41 +71,67 @@ ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src
 	android:name
 		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:26:13-46
 activity#com.example.pushkarmishra.conwaysgameoflife.Editor
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:32:9-38:20
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:31:9-36:59
 	android:screenOrientation
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:36:13-49
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:35:13-58
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:34:13-58
 	android:configChanges
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:34:13-48
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:33:13-48
 	android:theme
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:37:13-56
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:33:13-35
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:32:13-35
 activity#com.example.pushkarmishra.conwaysgameoflife.MainGame
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:39:9-45:20
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:37:9-42:59
 	android:screenOrientation
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:41:13-49
 	android:label
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:42:13-61
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:40:13-61
 	android:configChanges
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:41:13-48
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:39:13-48
 	android:theme
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:38:13-37
 activity#com.example.pushkarmishra.conwaysgameoflife.BoardDetails
-ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:46:9-52:20
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:43:9-48:59
 	android:screenOrientation
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:50:13-49
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:47:13-49
 	android:label
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:49:13-65
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:46:13-65
 	android:configChanges
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:48:13-48
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:45:13-48
 	android:theme
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:51:13-56
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:47:13-41
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:44:13-41
+activity#com.example.pushkarmishra.conwaysgameoflife.stats
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:49:9-57:20
+	android:label
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:51:13-57
+	android:parentActivityName
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:52:13-51
+	android:theme
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:50:13-34
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:54:13-56:88
+	android:value
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:56:17-85
+	android:name
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:55:17-63
+activity#com.example.pushkarmishra.conwaysgameoflife.Statistics
+ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:58:9-66:20
+	android:label
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:60:13-62
+	android:parentActivityName
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:61:13-51
+	android:theme
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml:59:13-39
 uses-sdk
 INJECTED from /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/pushkarmishra/AndroidStudioProjects/Conway'sGameofLife/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43

@@ -159,7 +159,9 @@ public class MainGame extends AppCompatActivity {
                         world = world.nextGeneration(0);
                         generationCount += 1;
 
-                        assert(!gameTreap.isPresent(generationCount));
+                        if(gameTreap.isPresent(generationCount)) {
+                            throw new AssertionError("Can't insert the same element twice");
+                        }
                         gameTreap.insert(generationCount);
                     }
                 }

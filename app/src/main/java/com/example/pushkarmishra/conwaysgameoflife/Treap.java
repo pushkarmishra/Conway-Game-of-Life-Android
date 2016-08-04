@@ -18,8 +18,6 @@
 
 package com.example.pushkarmishra.conwaysgameoflife;
 
-import java.util.Comparator;
-
 /**
  * This is a simple API for a
  * Treap Data structure (Balanced
@@ -31,7 +29,7 @@ public class Treap< T extends Comparable<T> > {
     TreapNode<T> dummy; // dummy node tells whether subtree is empty
 
     public Treap() {
-        dummy = new TreapNode<T>(null, null, 0);
+        dummy = new TreapNode<>(null, null, 0);
         dummy.priority = -1;
 
         root = dummy;
@@ -40,7 +38,7 @@ public class Treap< T extends Comparable<T> > {
     @SuppressWarnings("unchecked")
     private TreapNode insertRecursive(TreapNode current, T val) {
         if (current == dummy) {
-            current = new TreapNode<T>(dummy, val, 1);
+            current = new TreapNode<>(dummy, val, 1);
             return current;
         }
 
@@ -50,7 +48,7 @@ public class Treap< T extends Comparable<T> > {
                 return null;
 
             } else {
-                current = temp;
+                current.rightChild = temp;
             }
 
         } else if (current.value.compareTo(val) > 0) {
@@ -59,7 +57,7 @@ public class Treap< T extends Comparable<T> > {
                 return null;
 
             } else {
-                current = temp;
+                current.leftChild = temp;
             }
 
         } else {

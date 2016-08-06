@@ -25,8 +25,9 @@ package com.example.pushkarmishra.conwaysgameoflife;
  */
 
 public class Treap< T extends Comparable<T> > {
-    private TreapNode<T> root;
+    public TreapNode<T> root;
     TreapNode<T> dummy; // dummy node tells whether subtree is empty
+
 
     public Treap() {
         dummy = new TreapNode<>(null, null, 0);
@@ -43,27 +44,17 @@ public class Treap< T extends Comparable<T> > {
         }
 
         if (current.value.compareTo(val) < 0) {
-            TreapNode temp = insertRecursive(current.rightChild, val);
-            if(temp == null) {
-                return null;
-
-            } else {
-                current.rightChild = temp;
-            }
+            current.rightChild = insertRecursive(current.rightChild, val);
 
         } else if (current.value.compareTo(val) > 0) {
-            TreapNode temp = insertRecursive(current.leftChild, val);
-            if (temp == null) {
-                return null;
-
-            } else {
-                current.leftChild = temp;
-            }
+            current.leftChild = insertRecursive(current.leftChild, val);
 
         } else {
-            System.out.format("Treap::insertRecursive: Key already exists\n");
-            return null;
+            System.out.format("Treap::insertRecursive: Value already exists\n");
+            return current;
         }
+
+        current.size = current.leftChild.size + current.rightChild.size + 1;
 
         if (current.leftChild.priority > current.priority) {
             current = current.rotateRight();
@@ -76,7 +67,9 @@ public class Treap< T extends Comparable<T> > {
     }
 
     public boolean insert(T insertVal) {
-        return (insertRecursive(root, insertVal) == null);
+        int prevSize = root.size;
+        root = insertRecursive(root, insertVal);
+        return (root.size > prevSize);
     }
 
     @SuppressWarnings("unchecked")
@@ -113,6 +106,8 @@ class TreapNode< T extends Comparable<T> > {
         rightChild = defaultNode;
         value = mVal;
         size = mSize;
+
+        // Priority is a 9 digit random number
         priority = (int) (Math.random() * 1000000000);
     }
 
@@ -124,7 +119,7 @@ class TreapNode< T extends Comparable<T> > {
         this.leftChild = y;
 
         this.size = this.leftChild.size + this.rightChild.size + 1;
-        x.size = x.leftChild.size + x.rightChild.size;
+        x.size = x.leftChild.size + x.rightChild.size + 1;
 
         return x;
     }
@@ -137,7 +132,7 @@ class TreapNode< T extends Comparable<T> > {
         this.rightChild = y;
 
         this.size = this.leftChild.size + this.rightChild.size + 1;
-        x.size = x.leftChild.size + x.rightChild.size;
+        x.size = x.leftChild.size + x.rightChild.size + 1;
 
         return x;
     }
